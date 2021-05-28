@@ -1,1 +1,1 @@
-BotzHub: python -m AccountGen
+bot: python -m bot
