@@ -28,43 +28,43 @@ def add_user_to_db(user, no):
         sud.insert_one({'user': user, 'no': no})
        
 def get_user_limit(user):
-    meisnub = sud.find_one({"user": user})
-    if meisnub:
-        return meisnub['no']
+    stark1 = sud.find_one({"user": user})
+    if stark1:
+        return stark1['no']
     else:
         return 0
     
 def get_all_users():
-    ujwal = sud.find()
-    if ujwal:
-        return list(ujwal)
+    stark2 = sud.find()
+    if stark2:
+        return list(stark2)
     else:
         return None
     
 def dl_all_users():
-    ujwal = sud.delete_many()
+    stark2 = sud.delete_many()
     
 def dl_one_user(user):
-    ujwal = sud.delete_one({'user': user})
+    stark2 = sud.delete_one({'user': user})
     
 def add_hits_to_db(hit):
-    ujwal = shd.find_one({"hit": hit})
-    if not ujwal:
+    stark2 = shd.find_one({"hit": hit})
+    if not stark2:
         shd.insert_one({'hit': hit})
         
 def rm_all_hits():
-    ujwal = shd.delete_many()
+    stark2 = shd.delete_many()
     
 def all_hit():
-    ujwal = shd.find()
-    return list(ujwal)
+    stark2 = shd.find()
+    return list(stark2)
     
 def rm_hit(hit):
-    meisnub = shd.delete_one({"hit": hit})
+    stark1 = shd.delete_one({"hit": hit})
     
 def hit_exists(hit):
-    ujwal = shd.find_one({'hit': hit})
-    if ujwal:
+    stark2 = shd.find_one({'hit': hit})
+    if stark2:
         return True
     else:
         return False
