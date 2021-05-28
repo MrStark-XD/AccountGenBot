@@ -1,7 +1,4 @@
-telethon
-cryptg
+python-decouple
+redis
 requests
-apscheduler
-sqlalchemy>=1.2
-psycopg2-binary
-pymongo
+telethon
