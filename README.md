@@ -31,7 +31,7 @@ You can deploy this bot anywhere.
 <details><summary>Local Machine</summary>
 <p>
 Open a terminal. </br>
-Clone the repository <code>git clone https://github.com/xditya/AccountGenBot && cd AccountGenBot</code> </br>
+Clone the repository <code>git clone https://github.com/MrStark-XD/AccountGenBot && cd AccountGenBot</code> </br>
 Install requirements:
 <code>pip3 install -r requirements.txt</code> </br>
 Create a <code>.env</code> file with the vars. Follow these: </br>

@@ -7,8 +7,7 @@
         "telethon",
         "telegram-bot"
     ],
-    "repository": "https://github.com/xditya/AccountsGenBot",
-    "website": "xditya.me",
+    "repository": "https://github.com/MrStark-XD/AccountGenBot",
     "success_url": "https://t.me/BotzHub",
     "env": {
         "API_HASH": {
