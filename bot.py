@@ -29,7 +29,7 @@ import telethon
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure
 from telethon import Button, custom, events, functions
-from dB import get_user_limit, add_user_to_database, get_all_users, dl_all_users, dl_one_user, add_hits_to_database, rm_all_hits, all_hit, rm_hit, hit_exists
+from database import get_user_limit, add_user_to_db, get_all_users, dl_all_users, dl_one_user, add_hits_to_db, rm_all_hits, all_hit, rm_hit, hit_exists
 
 bot = TelegramClient("bot", api_id=Config.API_ID, api_hash=Config.API_HASH)
 warnerstarkbot = bot.start(bot_token=Config.BOT_TOKEN)
