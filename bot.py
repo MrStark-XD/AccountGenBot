@@ -35,13 +35,6 @@ bot = TelegramClient("bot", api_id=Config.API_ID, api_hash=Config.API_HASH)
 warnerstarkbot = bot.start(bot_token=Config.BOT_TOKEN)
 
 
-try:
-    mongo_client = MongoClient(Config.MONGO_DB)
-    mongo_client.server_info()
-except ConnectionFailure:
-    print("Invalid Mongo DB URL. Please Check Your Credentials! Friday is Exiting...")
-    quit(1)
-
 @warnerstarkbot.on(events.NewMessage(pattern="^/start$"))
 async def hmm(event):
     if Config.JTU_ENABLE:
