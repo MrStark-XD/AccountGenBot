@@ -1,7 +1,7 @@
 {
   "name": "Account Gen Bot",
   "description": "A Account Gen Bot In Telethon.",
-  "logo": "https://cdn.dribbble.com/users/6823/screenshots/2211533/ag-logo.png?compress=1&resize=800x600",
+  "logo": "https://github.com/MrStark-XD/AccountGenBot/blob/main/aglogo.png?compress=1&resize=800x600",
   "keywords": [
     "telegram",
     "account",
@@ -9,9 +9,9 @@
     "telegram-bot",
     "productivity"
   ],
-  "repository": "https://github.com/DevsExpo/AccountCheckerBot",
-  "website": "starkgang.ml",
-  "success_url": "t.me/FridayOT",
+  "repository": "https://github.com/MrStark-XD/AccountGenBot",
+  "website": "techriderarun.com",
+  "success_url": "t.me/spamiology",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable heroku.",
